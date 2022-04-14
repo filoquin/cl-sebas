@@ -67,7 +67,7 @@
     'port': '8069',
 
     'git-repos': [
-        'https://github.com:filoquin/cl-sebas.git',
+        'https://github.com/filoquin/cl-sebas',
 
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
