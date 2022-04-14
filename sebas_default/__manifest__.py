@@ -19,7 +19,7 @@
 ##############################################################################
 
 {
-    'name': 'Seba',
+    'name': 'Sebas',
     'version': '13.0.1.0.0',
     'category': 'Tools',
     'summary': "Test for v13 CE",
@@ -46,7 +46,7 @@
         # You should use 2 worker threads + 1 cron thread per available CPU,
         # and 1 CPU per 10 concurent users.
         # if ommited oe will calculate workers and cron´s based on # of cpu
-                'workers = 5',
+                'workers = 0',
                 'max_cron_threads = 1',
 
         # Number of requests a worker will process before being recycled and
