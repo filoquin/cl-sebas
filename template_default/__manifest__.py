@@ -19,12 +19,12 @@
 ##############################################################################
 
 {
-    'name': 'template',
+    'name': 'Seba',
     'version': '13.0.1.0.0',
     'category': 'Tools',
     'summary': "Test for v13 CE",
     'author': "jeo Software",
-    'website': 'http://github.com/jobiols/cl-test',
+    'website': 'http://github.com/filoquin/cl-sebas',
     'license': 'AGPL-3',
     'depends': [
         'standard_depends_ce'
@@ -67,9 +67,7 @@
     'port': '8069',
 
     'git-repos': [
-        'git@github.com:jobiols/cl-test.git',
-        'git@github.com:jobiols/odoo-jeo-ce.git',
-        'git@github.com:jobiols/odoo-private-addons.git',
+        'git@github.com:filoquin/cl-sebas.git',
 
         # OCA
         'https://github.com/OCA/server-tools oca-server-tools',
@@ -159,8 +157,8 @@
         'https://github.com/ingadhoc/product ingadhoc-product',
 
         # Cambiamos por el de filoquin
-        #'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
-        'https://github.com/filoquin/odoo-argentina-ce.git -b 13.0_qr',
+        'https://github.com/ingadhoc/odoo-argentina ingadhoc-odoo-argentina',
+        'https://github.com/ingadhoc/odoo-argentina-ce.git -b 13.0',
 
         'https://github.com/ingadhoc/miscellaneous ingadhoc-miscellaneous',
         'https://github.com/ingadhoc/sale ingadhoc-sale',
@@ -193,6 +191,6 @@
     'docker-images': [
         'odoo jobiols/odoo-jeo:13.0',
         'postgres postgres:10.1-alpine',
-        'nginx nginx'
+        #'nginx nginx'
     ]
 }
